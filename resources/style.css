@@ -14,8 +14,8 @@ body {
 .nav-button {
   float: left;
   text-decoration: none;
-  background-color: rgb(200, 240, 200);
-  color: rgb(20, 20, 20);
+  background-color: #f9e79f;
+  color: #FFFFFF;
   transition-duration: 0.4s;
   height: 50px;
   padding-top: 20px;
