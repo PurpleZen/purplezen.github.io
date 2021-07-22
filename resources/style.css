@@ -1,7 +1,12 @@
 body {
-  background-color: #fcfcfc
+  background-color: #f9e79f
   font-family: arial, sans-serif;
   margin: 0;
+}
+
+.content {
+  margin-left: 15px;
+  background-color: #fcfcfc;
 }
 
 .navbar {
