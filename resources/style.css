@@ -12,7 +12,7 @@ body {
 }
 
 .nav-button {
-  float: left;
+  float: center;
   text-decoration: none;
   background-color: #f9e79f;
   color: #FFFFFF;
