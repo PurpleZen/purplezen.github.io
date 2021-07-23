@@ -15,7 +15,7 @@ body {
 }
 
 .nav-button {
-  margin-left: 0
+  margin-left: 0;
   display: inline-flex;
   background-color: #ee9d7a;
   text-decoration: none;
@@ -30,4 +30,8 @@ body {
   margin-left: 50;
   margin-top: 20;
   box-shadow: 0px 5px 2px 0px #f3e29d;
+  
+  div:hover {
+    margin-left: 60;
+    
 }
