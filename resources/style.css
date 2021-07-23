@@ -15,7 +15,7 @@ body {
 }
 
 .nav-button {
-  onload="this.classList.add('loaded')"
+  onload="this.classList.add('loaded')";
   display: inline-flex;
   background-color: #ee9d7a;
   text-decoration: none;
