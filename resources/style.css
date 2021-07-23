@@ -15,6 +15,8 @@ body {
 }
 
 .nav-button {
+  div {
+  margin-left: 0
   display: inline-flex;
   background-color: #ee9d7a;
   text-decoration: none;
@@ -27,8 +29,11 @@ body {
   text-align: center;
   font-size: 18px;
   transition: margin-left 0.5s;
-  transition-delay: 0.5s;
+  }
+
+  div {
   margin-left: 50;
   margin-top: 20;
   box-shadow: 0px 5px 2px 0px #f3e29d;
+  }
 }
