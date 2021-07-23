@@ -15,7 +15,7 @@ body {
 }
 
 .nav-button {
-  display: inline-flex;
+  display: inline-block;
   background-color: #ee9d7a;
   text-decoration: none;
   height: 30px;
