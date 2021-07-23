@@ -16,7 +16,7 @@ body {
 
 .nav-button {
   float: center;
-  margin-left: 10;
+  margin-left: auto;
   margin-top: 20;
   display: inline-flex;
   text-decoration: none;
