@@ -15,7 +15,6 @@ body {
 }
 
 .nav-button {
-  onload="this.classList.add('loaded')";
   display: inline-flex;
   background-color: #ee9d7a;
   text-decoration: none;
@@ -28,11 +27,7 @@ body {
   text-align: center;
   transition-duration: 0.4s; 
   font-size: 18px;
-  margin-left: 0;
+  margin-left: 50;
   margin-top: 20;
   box-shadow: 0px 5px 2px 0px #f3e29d;
-}
-
-.loaded {
-  margin-left: 50;
 }
