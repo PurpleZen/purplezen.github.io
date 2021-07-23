@@ -36,4 +36,5 @@ body {
 .nav-button:hover{
   background-color: #f9e79f;
   color: #ee9d7a;
+  font-size: 20px;
 }
