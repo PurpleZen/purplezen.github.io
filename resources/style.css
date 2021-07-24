@@ -30,12 +30,12 @@ body {
   font-size: 18px;
   margin-left: 50;
   margin-top: 20;
-  transition-duration: 0.4s;
+  transition: transform 0.4s;
   box-shadow: 0px 5px 2px 0px #f3e29d;
 }
 
 .nav-button:hover{
   background-color: #fcfcfc;
   color: #ee9d7a;
-  font-size: 25px;
+  transform: scale(1.2);
 }
