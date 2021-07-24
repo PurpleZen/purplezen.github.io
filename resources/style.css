@@ -13,7 +13,7 @@ body {
   width: 100%;
   height: 80px;
   background-color: #f9e79f;
-  box-shadow: 0px 6px 10px 0px #ececec;
+  box-shadow: 0px 6px 10px 0px 4px #ececec;
 }
 
 .nav-button {
@@ -32,13 +32,13 @@ body {
   margin-left: 50;
   margin-top: 20;
   transition: transform 0.4s;
-  box-shadow: 0px 7px 4px 0px #e7d898;
+  box-shadow: 0px 4px 4px 0px #e7d898;
 }
 
 .nav-button:hover{
   background-color: #fcfcfc;
   color: #ee9d7a;
   transform: scale(1.2);
-  box-shadow: 0px 9px 5px 0px #e7d898;
+  box-shadow: 0px 6px 5px 1px #e7d898;
 
 }
