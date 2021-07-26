@@ -45,7 +45,7 @@ body {
 .nav-button:hover{
   background-color: #fcfcfc;
   color: #34495e;
-  transform: scale(1.2);
-  box-shadow: 0px 6px 5px 1px #e7d898;
+  transform: scale(1.1);
+  box-shadow: 0px 6px 5px 1px #d0b262;
 
 }
