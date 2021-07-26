@@ -1,11 +1,11 @@
 body {
-  background-color: #4E4E56;
+  background-color: #fcfcfc;
   font-family: sans-serif;
   margin: 0;
 }
 
 .content {
-  background-color: #4E4E56;
+  background-color: #fcfcfc;
   justify-content: center;
   display: grid;
 }
@@ -25,7 +25,7 @@ body {
 .nav-button {
   display: inline-block;
   justify-content: center;
-  background-color: #008080;
+  background-color: #f0b27a;
   text-decoration: none;
   height: 30px;
   color: #FFFFFF;
@@ -44,7 +44,7 @@ body {
 
 .nav-button:hover{
   background-color: #fcfcfc;
-  color: #f3f4e7;
+  color: #34495e;
   transform: scale(1.2);
   box-shadow: 0px 6px 5px 1px #e7d898;
 
