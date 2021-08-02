@@ -7,4 +7,4 @@ void(document.head.appendChild(Object.assign(document.createElement('style'), { 
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-info .studio-title { font-size: 25px}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-info .studio-title { font-weight: 500}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-tab-nav li:active { padding: calc(0.5em) calc(1.25em) calc(0.5em) calc(1em)}"})));
-void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".comment:last-of-type::after { background: none}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".replies.collapsed { background: none}"})));
