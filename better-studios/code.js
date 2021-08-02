@@ -6,4 +6,4 @@ void(document.head.appendChild(Object.assign(document.createElement('style'), { 
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".button { padding: 0.5em 1em}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-info .studio-title { font-size: 25px}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-info .studio-title { font-weight: 500}"})));
-void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-tab-nav li:active { padding: calc(0.5em) calc(1em) calc(0.75em) calc(1em)}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-tab-nav li:active { padding: calc(0.5em) calc(1em) calc(0.5em) calc(1em)}"})));
