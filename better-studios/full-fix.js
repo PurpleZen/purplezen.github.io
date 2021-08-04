@@ -13,3 +13,7 @@ void(document.head.appendChild(Object.assign(document.createElement('style'), { 
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-info { gap: 10px}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".sub-nav li, .sub-nav button { border-radius: 12px}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-tab-nav li { background: transparent}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-info .studio-description.uneditable { background: rgba(174, 182, 191, 0.1)}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".comment.highlighted-comment::before { background: rgba(174, 182, 191, 0.1)}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".compose-comment .textarea-row textarea:not(:focus) { border: 2px solid rgba(0, 0, 0, 0.1)}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".inplace-textarea { background-color: #fff}"})));
