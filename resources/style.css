@@ -1,17 +1,17 @@
 body {
-  background-color: #fcfcfc;
+  background-color: #FFC000;
   font-family: sans-serif;
   margin: 0;
 }
 
 .content {
-  background-color: #fcfcfc;
+  background-color: transparent;
   justify-content: center;
   display: grid;
 }
 
 .navbar {
-  width: 99%;
+  width: auto;
   height: 80px;
   background-color: #EADDCA;
   box-shadow: 0px 6px 10px 2px #ececec;
