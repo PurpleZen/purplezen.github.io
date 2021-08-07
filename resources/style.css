@@ -1,5 +1,5 @@
 body {
-  background-color: #FFC000;
+  background-color: #FFBF00;
   font-family: sans-serif;
   margin: 0;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  width: auto;
+  width: 80%;
   height: 80px;
   background-color: #EADDCA;
   box-shadow: 0px 6px 10px 2px #ececec;
