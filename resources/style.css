@@ -30,13 +30,13 @@ body {
   height: 30px;
   color: #CAEADD;
   font-weight: 500;
-  border-radius: 15px;
+  border-radius: 30px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
-  transition-duration: 0.4s; 
-  font-size: 18px;
+  transition-duration: 0.2s; 
+  font-size: 25px;
   margin-left: 20;
   margin-top: 20;
   transition: transform 0.4s;
