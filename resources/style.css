@@ -25,10 +25,10 @@ body {
 .nav-button {
   display: inline-block;
   justify-content: center;
-  background-color: #f0b27a;
+  background-color: #fff;
   text-decoration: none;
   height: 30px;
-  color: #FFFFFF;
+  color: #CAEADD;
   border-radius: 15px;
   padding-top: 10px;
   padding-left: 15px;
