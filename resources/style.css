@@ -19,7 +19,6 @@ body {
 }
 
 .name-button { 
-  float: left;
   display: inline-block;
   justify-content: center;
   background-color: #fff;
