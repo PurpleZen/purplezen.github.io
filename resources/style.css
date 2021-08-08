@@ -18,7 +18,7 @@ body {
   display: flex;
 }
 
-.name { 
+.name-button { 
   float: left;
   display: inline-block;
   justify-content: center;
@@ -39,28 +39,8 @@ body {
   transition: transform 0.4s;
 }
 
-.buttons { 
-  float: right;
-  display: inline-block;
-  justify-content: center;
-  background-color: #fff;
-  text-decoration: none;
-  height: 30px;
-  color: #FFBF00;
-  font-weight: 500;
-  border-radius: 30px;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-  transition-duration: 0.2s; 
-  font-size: 18px;
-  margin-left: 20;
-  margin-top: 20;
-  transition: transform 0.4s;
-}
-
 .nav-button {
+  float: right;
   display: inline-block;
   justify-content: center;
   background-color: #fff;
