@@ -19,11 +19,45 @@ body {
 }
 
 .name { 
-  float: left;width:50%; 
+  float: left;width:50%;
+  display: inline-block;
+  justify-content: center;
+  background-color: #fff;
+  text-decoration: none;
+  height: 30px;
+  color: #FFBF00;
+  font-weight: 500;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  transition-duration: 0.2s; 
+  font-size: 18px;
+  margin-left: 20;
+  margin-top: 20;
+  transition: transform 0.4s;
 }
 
 .buttons { 
-  float: right;width:50%; 
+  float: right;width:50%;
+  display: inline-block;
+  justify-content: center;
+  background-color: #fff;
+  text-decoration: none;
+  height: 30px;
+  color: #FFBF00;
+  font-weight: 500;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  transition-duration: 0.2s; 
+  font-size: 18px;
+  margin-left: 20;
+  margin-top: 20;
+  transition: transform 0.4s;
 }
 
 .nav-button {
