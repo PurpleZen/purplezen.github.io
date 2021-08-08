@@ -6,7 +6,7 @@ body {
 
 .content {
   background-color: transparent;
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
   width: 80%;
   color: #fff;
