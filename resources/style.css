@@ -6,9 +6,9 @@ body {
 
 .content {
   background-color: transparent;
+  display: flex;
   justify-content: center;
   width: 80%;
-  word-wrap: break-word;
   color: #fff;
 }
 
