@@ -17,3 +17,5 @@ void(document.head.appendChild(Object.assign(document.createElement('style'), { 
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".comment.highlighted-comment::before { background: rgba(174, 182, 191, 0.1)}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".compose-comment .textarea-row textarea:not(:focus) { border: 2px solid rgba(0, 0, 0, 0.1)}"})));
 void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".inplace-textarea { background-color: #fff}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-adder-section .studio-adder-row input { padding: 0.5em 1.25em}"})));
+void(document.head.appendChild(Object.assign(document.createElement('style'), { textContent: ".studio-member-tile { padding: 5px 1px 5px 5px}"})));
