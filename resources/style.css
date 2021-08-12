@@ -6,9 +6,9 @@ body {
 
 .tiles {
   background-color: #fff;
-  width: 480px;
+  width: 300px;
   display: grid;
-  height: 380px;
+  height: 280px;
   margin-left: 10%;
   border-radius: 10px;
   justify-content: center;
