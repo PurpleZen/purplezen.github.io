@@ -8,6 +8,7 @@ body {
   background-color: #fff;
   width: 300px;
   display: flex;
+  flex-wrap: wrap;
   height: 280px;
   padding-top: 15px;
   padding-left: 10px;
