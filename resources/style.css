@@ -9,13 +9,14 @@ body {
   width: 300px;
   display: flex;
   flex-wrap: wrap;
-  height: 250px;
+  height: 225px;
   padding-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 35px;
   margin-left: 10%;
   border-radius: 10px;
-  align-content: center;
+  justify-content: center;
   color: #34495e;
 }
 
