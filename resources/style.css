@@ -5,10 +5,11 @@ body {
 }
 
 .content {
-  display: grid;
+  display: flex;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20px;
+  justify-content: space-evenly;
 }
 
 .tiles {
@@ -23,6 +24,7 @@ body {
   padding-bottom: 35px;
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: 30px;
   border-radius: 10px;
   text-align: center;
   color: #34495e;
