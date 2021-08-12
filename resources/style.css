@@ -4,9 +4,10 @@ body {
   margin: 0;
 }
 
-.content {
-  background-color: transparent;
+.tiles {
+  background-color: #fff;
   display: grid;
+  height: 10px;
   margin-left: 10%;
   justify-content: center;
   width: 80%;
