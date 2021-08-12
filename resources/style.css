@@ -6,7 +6,7 @@ body {
 
 .tiles {
   background-color: #fff;
-  box-shadow: 0px 0px 20px #E5AB00;
+  box-shadow: 0px 0px 20px #CC9800;
   width: 300px;
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +16,7 @@ body {
   padding-right: 10px;
   padding-bottom: 35px;
   margin-left: 10%;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 10px;
   justify-content: center;
   color: #34495e;
