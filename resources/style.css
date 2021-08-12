@@ -9,22 +9,22 @@ body {
   box-shadow: 0px 0px 20px #CC9800;
   width: 300px;
   height: 230px;
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-grid;
   padding-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 35px;
   margin-left: 10%;
+  margin-right: 10%;
   margin-top: 20px;
   border-radius: 10px;
-  text-align: center;
+  justify-content: center;
   color: #34495e;
   line-height: 1.8;
   font-size: 20px;
   font-weight: 300;
   text-decoration: none;
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 
 .tiles:hover {
