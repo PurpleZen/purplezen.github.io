@@ -9,6 +9,9 @@ body {
   width: 300px;
   display: grid;
   height: 280px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 10%;
   border-radius: 10px;
   justify-content: center;
