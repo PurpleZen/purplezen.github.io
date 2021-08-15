@@ -62,7 +62,7 @@ body {
   margin-top: 20;
 }
 
-.nav-button#scratch {
+.nav-button-scratch {
   float: right;
   display: inline-block;
   justify-content: center;
@@ -82,7 +82,7 @@ body {
   transition: transform 0.4s;
 }
 
-.nav-button#github {
+.nav-button-github {
   float: right;
   display: inline-block;
   justify-content: center;
