@@ -62,7 +62,27 @@ body {
   margin-top: 20;
 }
 
-.nav-button {
+.nav-button#scratch {
+  float: right;
+  display: inline-block;
+  justify-content: center;
+  background-color: #fff;
+  text-decoration: none;
+  height: 30px;
+  color: #FFBF00;
+  font-weight: 500;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 20;
+  margin-top: 20;
+  transition: transform 0.4s;
+}
+
+.nav-button#github {
   float: right;
   display: inline-block;
   justify-content: center;
