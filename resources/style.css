@@ -8,17 +8,12 @@ body {
   width: 100%;
   height: 40px;
   background-color: transparent;
-  animation: 0s ease-out 0s 1 wait, 0.21s ease-out 0s 1 slideInFromTop;
+  animation: 0s ease-out 0s 1 wait, 0.21s ease-out 0s 1 fadeIn;
 }
 
-@keyframes wait {
-    from { transform: translateY(20px); }
-    to { transform: translateY(20px); }
-}
-
-@keyframes slideInFromTop {
-  from { transform: translateY(-20px); opacity: 100; }
-  to { transform: translateY(0); opacity: 1; }
+@keyframes fadeIn {
+  from { transform: opacity: 100; }
+  to { transform: opacity: 1; }
 }
 
 .name-button { 
