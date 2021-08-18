@@ -11,6 +11,11 @@ body {
   animation: 0s ease-out 0s 1 wait, 0.21s ease-out 0s 1 fadeIn;
 }
 
+@keyframes wait {
+    from { transform: opacity: 100 }
+    to { transform: opacity: 100; }
+}
+
 @keyframes fadeIn {
   from { transform: opacity: 100; }
   to { transform: opacity: 1; }
