@@ -48,7 +48,6 @@ body {
   margin-right: 20;
   margin-top: 20;
   transition: transform 0.4s;
-  animation: fadeInAnimation ease 1.5s;
 }
 
 .nav-button-scratch {
