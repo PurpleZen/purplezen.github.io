@@ -99,6 +99,7 @@ body {
 }
 
 .content {
+  opacity: 100%;
   display: flex;
   margin-top: 20px;
   justify-content: center;
