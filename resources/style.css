@@ -103,7 +103,7 @@ body {
   margin-top: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  animation: fadeInAnimation ease 1s slideInFromBottom ease 1s;
+  animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
   animation-delay: 1s;
@@ -143,18 +143,9 @@ body {
 
 @keyframes fadeInAnimation {
   0% {
-    opacity: 0;
+    opacity: 0; transform: translateY(100%);
   }
   100% {
-    opacity: 1;
-  }
-}
-
-@keyframes slideInFromBottom {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
+    opacity: 1; transform: translateY(0);
   }
 }
