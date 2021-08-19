@@ -106,6 +106,7 @@ body {
   animation: fadeInAnimation ease 1.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 
 .content-bk {
