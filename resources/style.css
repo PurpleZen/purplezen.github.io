@@ -99,13 +99,11 @@ body {
 }
 
 .content {
-  opacity: 0;
   display: flex;
   margin-top: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  animation: fadeInAnimation ease 1s;
-  animation: slideInFromBottom ease 1s;
+  animation: fadeInAnimation ease 1s slideInFromBottom ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
   animation-delay: 1s;
