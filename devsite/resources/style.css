@@ -5,15 +5,14 @@ body {
 }
 
 .navbar {
-  width: 90%;
+  width: 98%;
   height: 30px;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-left: 1%;
+  margin-top: 2%;
   border-radius: 30px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  justify-content: center;
   background-color: #e2e2e2;
   animation: fadeInAnimation ease 1.2s;
   animation-iteration-count: 1;
@@ -21,7 +20,7 @@ body {
 }
 
 .name-button { 
-  display: block;
+  display: inline-block;
   justify-content: center;
   background-color: #fcfcfc;
   text-decoration: none;
@@ -34,7 +33,7 @@ body {
   padding-right: 15px;
   text-align: center;
   font-size: 18px;
-  margin-left: 20;
+  margin-top: -5px;
 }
 
 .nav-button-github {
