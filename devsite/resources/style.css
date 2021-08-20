@@ -16,7 +16,7 @@ body {
 .name-button { 
   display: inline-block;
   justify-content: center;
-  background-color: #fff;
+  background-color: #fcfcfc;
   text-decoration: none;
   height: 30px;
   color: #FFBF00;
@@ -34,10 +34,10 @@ body {
 .nav-button-github {
   float: right;
   justify-content: center;
-  background-color: #fff;
+  background-color: #58d68d;
   text-decoration: none;
   height: 30px;
-  color: #FFBF00;
+  color: #fcfcfc;
   font-weight: 500;
   border-radius: 30px;
   padding-top: 10px;
@@ -53,10 +53,10 @@ body {
 .nav-button-scratch {
   float: right;
   justify-content: center;
-  background-color: #fff;
+  background-color: #58d68d;
   text-decoration: none;
   height: 30px;
-  color: #FFBF00;
+  color: #fcfcfc;
   font-weight: 500;
   border-radius: 30px;
   padding-top: 10px;
