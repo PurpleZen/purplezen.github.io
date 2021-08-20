@@ -5,9 +5,10 @@ body {
 }
 
 .navbar {
-  width: 80%;
+  width: 90%;
   height: 30px;
-  margin-left: 10px;
+  margin-left: 5%;
+  margin-top: 5%;
   background-color: #e2e2e2;
   animation: fadeInAnimation ease 1.2s;
   animation-iteration-count: 1;
@@ -29,7 +30,7 @@ body {
   text-align: center;
   font-size: 18px;
   margin-left: 20;
-  margin-top: 20;
+  margin-top: 5%;
 }
 
 .nav-button-github {
@@ -47,7 +48,7 @@ body {
   text-align: center;
   font-size: 18px;
   margin-right: 20;
-  margin-top: 20;
+  margin-top: 5%;
   transition: transform 0.4s;
 }
 
@@ -66,7 +67,7 @@ body {
   text-align: center;
   font-size: 18px;
   margin-right: 20;
-  margin-top: 20;
+  margin-top: 5%;
   transition: transform 0.4s;
 }
 
