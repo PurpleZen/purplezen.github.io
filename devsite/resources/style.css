@@ -45,13 +45,12 @@ body {
   height: 30px;
   color: #fcfcfc;
   font-weight: 500;
-  border-radius: 30px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
   font-size: 18px;
-  margin-right: 20;
+  margin-right: 20px;
   margin-top: -10px;
   margin-left: -15px;
   transition: transform 0.4s;
@@ -65,7 +64,6 @@ body {
   height: 30px;
   color: #fcfcfc;
   font-weight: 500;
-  border-radius: -30px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
