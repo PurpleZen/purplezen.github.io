@@ -6,8 +6,8 @@ body {
 
 .navbar {
   height: 30px;
-  margin-left: 1%;
-  margin-left: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-top: 2%;
   border-radius: 30px;
   padding-top: 10px;
@@ -52,6 +52,8 @@ body {
   text-align: center;
   font-size: 18px;
   margin-right: 20;
+  margin-top: -10px;
+  margin-left: -15px;
   transition: transform 0.4s;
 }
 
@@ -70,6 +72,8 @@ body {
   text-align: center;
   font-size: 18px;
   margin-right: 20;
+  margin-top: -10px;
+  margin-left: -15px;
   transition: transform 0.4s;
 }
 
