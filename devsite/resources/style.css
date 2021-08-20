@@ -92,13 +92,11 @@ body {
 .nav-button-github:hover {
   background-color: #333;
   color: #fcfcfc;
-  transform: scale(1.1);
 }
 
 .nav-button-scratch:hover {
   background-color: #4d97ff;
   color: #fcfcfc;
-  transform: scale(1.1);
 }
 
 .bk-button {
