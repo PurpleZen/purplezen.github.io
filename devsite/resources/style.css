@@ -77,7 +77,7 @@ body {
 
 .indent-button {
   float: right;
-  justify-content: center
+  justify-content: center;
   background-color: #fcfcfc;
   border-radius: 30px;
   height: 30px;
