@@ -44,6 +44,7 @@ body {
   border-radius: 0px 30px 30px 0px;
   text-decoration: none;
   height: 30px;
+  width: 100px;
   color: #fcfcfc;
   font-weight: 500;
   padding-top: 10px;
@@ -62,6 +63,7 @@ body {
   background-color: #58d68d;
   text-decoration: none;
   height: 30px;
+  width: 100px;
   color: #fcfcfc;
   font-weight: 500;
   padding-top: 10px;
