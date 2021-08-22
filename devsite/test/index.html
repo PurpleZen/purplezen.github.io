@@ -1,5 +1,5 @@
-<h1>Authors</h1>
-<ul id="authors"></ul>
+<h1>instructions</h1>
+<ul id="instructions"></ul>
 
 <script>
 
@@ -11,19 +11,19 @@ function append(parent, el) {
   return parent.appendChild(el);
 }
 
-const ul = document.getElementById('authors');
-const url = 'https://randomuser.me/api/?results=10';
+const ul = document.getElementById('instructions');
+const url = 'https://api.scratch.mit.edu/projects/557497270/';
 
 fetch(url)
 .then((resp) => resp.json())
 .then(function(data) {
-  let authors = data.results;
-  return authors.map(function(author) {
+  let instructions = data.results;
+  return instructions.map(function(instructions) {
     let li = createNode('li');
     let img = createNode('img');
     let span = createNode('span');
-    img.src = author.picture.medium;
-    span.innerHTML = `${author.name.first} ${author.name.last}`;
+    img.src = instructions.picture.medium;
+    span.innerHTML = `${instructions.name.first} ${instructions.name.last}`;
     append(li, img);
     append(li, span);
     append(ul, li);
