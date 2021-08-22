@@ -1,24 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<script src="script.js"></script>
-		<link rel="stylesheet" href="style.css" />
-		<meta charset="UTF-8" />
-		<meta name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body>
-		<!-- Here a loader is created which
-			loads till response comes -->
-		<div class="d-flex justify-content-center">
-			<div class="spinner-border"
-				role="status" id="loading">
-				<span class="sr-only">Loading...</span>
-			</div>
-		</div>
-		<h1>Registered Employees</h1>
-		<!-- table for showing data -->
-		<table id="employees"></table>
-	</body>
-</html>
+<h1>Authors</h1>
+<ul id="authors"></ul>
+
+<script>
+
+function createNode(element) {
+    return document.createElement(element);
+}
+
+function append(parent, el) {
+  return parent.appendChild(el);
+}
+
+const ul = document.getElementById('authors');
+const url = 'https://randomuser.me/api/?results=10';
+
+fetch(url)
+.then((resp) => resp.json())
+.then(function(data) {
+  let authors = data.results;
+  return authors.map(function(author) {
+    let li = createNode('li');
+    let img = createNode('img');
+    let span = createNode('span');
+    img.src = author.picture.medium;
+    span.innerHTML = `${author.name.first} ${author.name.last}`;
+    append(li, img);
+    append(li, span);
+    append(ul, li);
+  })
+})
+.catch(function(error) {
+  console.log(error);
+});
+</script>
+
