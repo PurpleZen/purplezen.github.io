@@ -111,6 +111,7 @@ body {
   margin-top: -10px;
   margin-right: -20px;
   transition: transform 0.4s;
+  box-shadow: 10px 0px 10px -5px #4FC07E
 }
 
 .nav-button-ocular:hover {
@@ -126,6 +127,10 @@ body {
 .nav-button-scratch:hover {
   background-color: #4d97ff;
   color: #fcfcfc;
+}
+
+.nav-button-scratch:hover + .indent-button{
+  box-shadow: 10px 0px 10px -5px #4587E5
 }
 
 .bk-button {
