@@ -22,8 +22,8 @@ fetch(url)
     let li = createNode('li');
     let img = createNode('img');
     let span = createNode('span');
-    img.src = instructions.picture.medium;
-    span.innerHTML = `${id.instructions}`;
+    img.src = images;
+    span.innerHTML = `${instructions}`;
     append(li, img);
     append(li, span);
     append(ul, li);
