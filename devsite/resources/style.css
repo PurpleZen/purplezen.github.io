@@ -124,7 +124,7 @@ body {
   color: #fcfcfc;
 }
 
-.nav-button-scratch:hover .nav-button-github .nav-button-ocular {
+.nav-button-scratch:hover ~ .nav-button-github ~ .nav-button-ocular {
   background-color: #4d97ff;
   color: #fcfcfc;
 }
