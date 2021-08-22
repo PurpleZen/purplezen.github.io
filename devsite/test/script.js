@@ -1,6 +1,6 @@
 // api url
 const api_url =
-	"https://https://api.scratch.mit.edu/users/mres/following";
+	"https://api.scratch.mit.edu/users/mres/following";
 
 // Defining async function
 async function getapi(url) {
