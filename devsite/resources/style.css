@@ -164,8 +164,26 @@ body {
 }
 
 .content-bk {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
   justify-content: center;
-  display: grid;
+  flex-wrap: wrap;background-color: #fff;
+  box-shadow: 0px 0px 20px #CC9800;
+  width: 100%;
+  height: auti;
+  display: inline-grid;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: #34495e;
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 .tiles {
