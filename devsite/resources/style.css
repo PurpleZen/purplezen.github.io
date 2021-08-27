@@ -133,7 +133,7 @@ body {
 }
 
 .nav-button-plus:hover + .plus-drop {
-  display: block;
+  display: flex;
 }
 
 .nav-button-plus:hover {
