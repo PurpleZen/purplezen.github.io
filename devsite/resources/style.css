@@ -40,6 +40,7 @@ body {
 }
 
 .nav-button-plus {
+  position: relative;
   float: right;
   background-color: #58d68d;
   border-radius: 0px 30px 30px 0px;
@@ -133,7 +134,7 @@ body {
 }
 
 .nav-button-plus:hover + .plus-drop {
-  display: flex;
+  display: block;
 }
 
 .nav-button-plus:hover {
