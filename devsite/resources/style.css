@@ -114,8 +114,7 @@ body {
 }
 
 .plus-drop {
-  display: none;
-  position: absolute;
+  display: none;;
   background-color: #0fbd8c;
   float: right;
   border-radius: 0px 30px 30px 0px;
