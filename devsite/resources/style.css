@@ -128,8 +128,8 @@ body {
   padding-right: 20px;
   text-align: right;
   font-size: 18px;
-  margin-top: -10px;
   margin-right: -20px;
+  z-index: -1;
 }
 
 .nav-button-plus:hover .plus-drop {
