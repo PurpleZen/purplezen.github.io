@@ -132,7 +132,7 @@ body {
   margin-right: -20px;
 }
 
-.nav-button-plus:hover + .plus-drop {
+.nav-button-plus:hover .plus-drop {
   display: block;
 }
 
