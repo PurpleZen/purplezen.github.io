@@ -5,6 +5,7 @@ body {
 }
 
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   height: 30px;
   margin-left: 2%;
