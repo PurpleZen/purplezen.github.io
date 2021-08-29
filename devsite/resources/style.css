@@ -138,11 +138,10 @@ body {
   text-align: right;
   font-size: 18px;
   margin-top: 50px;
-  margin-right: -15px;
 }
 
 .nav-drop:hover .plus-drop {
-  display: block;
+  display: grid;
 }
 
 .nav-drop:hover {
