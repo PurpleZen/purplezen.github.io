@@ -119,7 +119,6 @@ body {
   text-decoration: none;
   height: auto;
   width: 100px;
-  margin-right: -25px;
   min-height: 100px;
   z-index: -1;
 }
