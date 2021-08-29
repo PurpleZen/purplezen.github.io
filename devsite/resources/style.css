@@ -147,7 +147,6 @@ body {
   padding-right: 20px;
   text-align: right;
   font-size: 18px;
-  margin-top: -10px;
   margin-right: -15px;
 }
 
@@ -156,7 +155,7 @@ body {
 }
 
 .nav-drop:hover {
-  background-color: #0fbd8c;
+  background-color: #4fc07e;
   color: #fcfcfc;
 }
 
