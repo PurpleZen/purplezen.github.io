@@ -13,7 +13,7 @@ body {
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #EACDCA;
+  background-color: #FAF9F6;
   box-shadow: 0 8px 16px 0 rgba(210,198,181,1), 0 6px 20px 0 rgba(210,198,181,0.1);
   animation: fadeInAnimation ease 1.2s;
   animation-iteration-count: 1;
@@ -26,7 +26,7 @@ body {
   background-color: #fcfcfc;
   text-decoration: none;
   height: 30px;
-  color: #FFBF00;
+  color: #E97451;
   font-weight: 500;
   border-radius: 30px;
   padding-top: 10px;
@@ -162,7 +162,7 @@ body {
 }
 
 .nav-drop:hover {
-  background-color: #4fc07e;
+  background-color: #D16848;
   color: #fcfcfc;
 }
 
