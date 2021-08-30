@@ -124,7 +124,7 @@ body {
 }
 
 .drop-ocular {
-  background-color: #0fbd8c;
+  background-color: #58d68d;
   border-radius: 10px 30px 30px 10px;
   text-decoration: none;
   height: 30px;
@@ -141,7 +141,7 @@ body {
 }
 
 .drop-post {
-  background-color: #f54260;
+  background-color: #58d68d;
   border-radius: 10px 30px 30px 10px;
   text-decoration: none;
   height: 30px;
@@ -178,6 +178,14 @@ body {
 
 .nav-button-scratch:hover + .indent-button {
   box-shadow: 10px 0px 10px -5px #4587E5
+}
+
+.drop-ocular:hover {
+  background-color: #0fbd8c;
+}
+
+.drop-post:hover {
+  background-color: #f54260;
 }
 
 .bk-button {
