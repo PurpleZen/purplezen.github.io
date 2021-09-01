@@ -157,6 +157,23 @@ body {
   margin-top: 5px;
 }
 
+.drop-dev {
+  background-color: #E97451;
+  border-radius: 10px 30px 30px 10px;
+  text-decoration: none;
+  height: 30px;
+  width: 80px;
+  color: #fcfcfc;
+  font-weight: 500;
+  border: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
 .nav-drop:hover .plus-drop {
   display: grid;
 }
@@ -186,6 +203,10 @@ body {
 
 .drop-post:hover {
   background-color: #f54260;
+}
+
+.drop-dev:hover {
+  background-color: #34495e;
 }
 
 .bk-button {
