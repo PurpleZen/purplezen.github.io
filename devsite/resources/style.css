@@ -1,5 +1,5 @@
 :root {
-    --buttonsColor: #E97451;
+  --buttonsColor: #E97451;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 
 .nav-drop {
   float: right;
-  background-color: --buttonsColor;
+  background-color: buttonsColor;
   border-radius: 0px 30px 30px 0px;
   text-decoration: none;
   height: 30px;
