@@ -1,3 +1,7 @@
+:root {
+  --buttonsColor: #E97451;
+}
+
 body {
   background-color: #EADDCA;
   font-family: 'Ubuntu', sans-serif;
@@ -41,7 +45,7 @@ body {
 
 .nav-drop {
   float: right;
-  background-color: #E97451;
+  background-color: var(--buttonsColor);
   border-radius: 0px 30px 30px 0px;
   text-decoration: none;
   height: 30px;
@@ -61,7 +65,7 @@ body {
 
 .nav-button-github {
   float: right;
-  background-color: #E97451;
+  background-color: var(--buttonsColor);
   border-radius: 0px 30px 30px 0px;
   text-decoration: none;
   height: 30px;
@@ -80,7 +84,7 @@ body {
 
 .nav-button-scratch {
   float: right;
-  background-color: #E97451;
+  background-color: var(--buttonsColor);
   border-radius: 0px 30px 30px 0px;
   text-decoration: none;
   height: 30px;
@@ -124,7 +128,7 @@ body {
 }
 
 .drop-ocular {
-  background-color: #E97451;
+  background-color: var(--buttonsColor);
   border-radius: 10px 30px 30px 10px;
   text-decoration: none;
   height: 30px;
@@ -141,7 +145,7 @@ body {
 }
 
 .drop-post {
-  background-color: #E97451;
+  background-color: var(--buttonsColor);
   border-radius: 10px 30px 30px 10px;
   text-decoration: none;
   height: 30px;
@@ -158,7 +162,7 @@ body {
 }
 
 .drop-dev {
-  background-color: #E97451;
+  background-color: var(--buttonsColor);
   border-radius: 10px 30px 30px 10px;
   text-decoration: none;
   height: 30px;
