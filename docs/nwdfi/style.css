@@ -11,6 +11,7 @@ span {
 div.banner {
   position: -webkit-sticky;
   position: sticky;
+  width: 100%;
 }
 
 .header {
