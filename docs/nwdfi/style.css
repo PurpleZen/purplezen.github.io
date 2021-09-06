@@ -5,6 +5,10 @@ body {
   display: grid;
 }
 
+span {
+  display: block;
+}
+
 .header {
   color: #424242;
   padding: 15px;
