@@ -10,7 +10,6 @@ img {
 
 img.image {
   border-radius: 20px
-  width: 100%;
 }
 
 span {
@@ -26,6 +25,7 @@ div.banner {
 
 .header {
   background-color: b7eaff;
+  display: grid;
   border-radius: 20px;
   margin-top: 20px;
   margin-left: 40px;
