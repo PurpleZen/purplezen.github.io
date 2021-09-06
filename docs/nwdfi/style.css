@@ -90,8 +90,10 @@ div.overlay {
 @keyframes fadeInAnimation {
   0% {
     opacity: 1;
+    height: 100%;
   }
   100% {
     opacity: 0;
+    height: 0%;
   }
 }
