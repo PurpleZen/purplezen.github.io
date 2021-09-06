@@ -8,6 +8,12 @@ img {
   width: 100%;
 }
 
+h2 {
+  background-color: #fcec73
+  padding: 35px;
+  color: #3d3b3c;
+}
+
 span {
   display: block;
 }
