@@ -10,6 +10,7 @@ img {
 
 img.image {
   border-radius: 20px
+  width: 100%;
 }
 
 span {
@@ -24,16 +25,12 @@ div.banner {
 }
 
 .header {
-  color: #3d3b3c;
   background-color: b7eaff;
   border-radius: 20px;
   margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
   justify-content: center;
-  text-align: center;
-  font-size: large;
-  margin-top: 20px;
   box-shadow: 0 0 10px 10px #E2E2E2;
 }
 
