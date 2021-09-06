@@ -5,6 +5,9 @@ body {
   display: grid;
 }
 
+img {
+  border-radius: 15px;
+
 span {
   display: block;
   font-size: large;
