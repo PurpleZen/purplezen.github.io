@@ -2,8 +2,6 @@ body {
   background-color: #fcfcfc;
   font-family: 'Besley', serif;
   margin: 0;
-  display: flex;
-  justify-content: center;
 }
 
 img {
@@ -19,7 +17,6 @@ span {
   padding: 15px;
   background-color: #b7e9ff;
   border-radius: 15px;
-  width: auto;
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
