@@ -20,7 +20,7 @@ span {
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
-  display: inline-grid;
+  display: grid;
   justify-content: center;
   text-align: center;
   font-size: xx-large;
