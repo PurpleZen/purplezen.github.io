@@ -7,8 +7,6 @@ body {
 
 img {
   border-radius: 15px;
-  width: 80px;
-  height: 48px;
 }
 
 span {
@@ -31,7 +29,7 @@ span {
 
 .content {
   color: #424242;
-  padding: 15px;
+  padding: 35px;
   background-color: #ffc107;
   border-radius: 15px;
   margin-top: 10px;
