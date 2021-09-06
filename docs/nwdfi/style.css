@@ -31,8 +31,13 @@ div.banner {
 
 .title {
   background-color: #fcec73;
-  padding: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
   color: #3d3b3c;
+  border-radius: 20px;
+  margin-top: -45px;
+  margin-left: -35px;
+  margin-right: -35px;
 }
 
 .content {
