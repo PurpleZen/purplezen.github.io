@@ -22,10 +22,9 @@ span {
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
-  display: grid;
+  display: block;
   justify-content: center;
   text-align: center;
-  font-size: x-large;
 }
 
 .content {
