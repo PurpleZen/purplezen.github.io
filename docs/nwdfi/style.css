@@ -31,6 +31,8 @@ div.banner {
   justify-content: center;
   text-align: center;
   font-size: large;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 10px #E2E2E2;
 }
 
 .title {
@@ -50,7 +52,7 @@ div.banner {
   padding: 35px;
   background-color: #f3f3f1;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
   font-size: x-large;
