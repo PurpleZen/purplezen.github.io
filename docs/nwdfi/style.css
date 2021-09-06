@@ -22,7 +22,7 @@ span {
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
-  display: block;
+  display: inline-grid;
   justify-content: center;
 }
 
