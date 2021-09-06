@@ -1,5 +1,5 @@
 body {
-  background-color: #fcfcfc;
+  background-color: #e8daef;
   font-family: 'Besley', serif;
   margin: 0;
 }
@@ -48,5 +48,5 @@ div.banner {
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
-  font-size: large;
+  font-size: x-large;
 }
