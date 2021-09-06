@@ -5,8 +5,13 @@ body {
   display: grid;
 }
 
+h1 {
+  font-size: x-large;
+}
+
 span {
   display: block;
+  font-size: large;
 }
 
 .header {
@@ -17,6 +22,8 @@ span {
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
+  display: block;
+  justify-content: center;
 }
 
 .content {
