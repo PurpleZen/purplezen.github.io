@@ -9,7 +9,7 @@ img {
 }
 
 h2 {
-  background-color: #fcec73
+  background-color: #fcec73;
   padding: 35px;
   color: #3d3b3c;
 }
@@ -32,7 +32,7 @@ div.banner {
   width: 100%;
   justify-content: center;
   text-align: center;
-  font-size: xx-large;
+  font-size: large;
 }
 
 .content {
