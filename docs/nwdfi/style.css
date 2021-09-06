@@ -4,12 +4,13 @@ body {
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
 span {
   display: block;
+}
+
+div.banner {
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .header {
