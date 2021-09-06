@@ -1,0 +1,25 @@
+body {
+  background-color: #fcfcfc;
+  font-family: 'Hina Mincho', serif;
+  margin: 0;
+}
+
+.header {
+  color: #424242;
+  padding: 15px;
+  background-color: #ffc107;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.content {
+  color: #424242;
+  padding: 15px;
+  background-color: #ffc107;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
