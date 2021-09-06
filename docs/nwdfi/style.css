@@ -49,5 +49,5 @@ div.banner {
   margin-left: 40px;
   margin-right: 40px;
   font-size: x-large;
-  border-radius: 0 0 20px 15px #C2C2C0;
+  box-shadow: 0 0 10px #C2C2C0;
 }
