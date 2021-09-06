@@ -6,6 +6,7 @@ body {
 
 img {
   width: 100%;
+  border-radius: 20px
 }
 
 span {
@@ -45,7 +46,7 @@ div.banner {
   color: #3d3b3c;
   padding: 35px;
   background-color: #f3f3f1;
-  border-radius: 15px;
+  border-radius: 20px;
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
