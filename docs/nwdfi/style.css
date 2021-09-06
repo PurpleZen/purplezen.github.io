@@ -19,12 +19,14 @@ span {
   padding: 15px;
   background-color: #b7e9ff;
   border-radius: 15px;
+  width: auto;
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
-  display: block;
+  display: inline-grid;
   justify-content: center;
   text-align: center;
+  font-size: xx-large;
 }
 
 .content {
