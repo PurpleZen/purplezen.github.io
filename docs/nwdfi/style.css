@@ -1,5 +1,5 @@
 body {
-  background-color: #b7e9ff;
+  background-color: #fcfcfc;
   font-family: 'Besley', serif;
   margin: 0;
 }
@@ -20,7 +20,7 @@ div.banner {
 }
 
 .header {
-  color: #424242;
+  color:3d3b3c;
   background-color: transparent;
   display: grid;
   width: 100%;
@@ -30,9 +30,9 @@ div.banner {
 }
 
 .content {
-  color: #424242;
+  color: #f3f3f1;
   padding: 35px;
-  background-color: #ffc107;
+  background-color: #996cac;
   border-radius: 15px;
   margin-top: 10px;
   margin-left: 40px;
