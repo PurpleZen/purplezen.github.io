@@ -38,6 +38,7 @@ div.banner {
   margin-top: -75px;
   margin-left: -35px;
   margin-right: -35px;
+  box-shadow: 0 5px 5px -2.5px #E2E2E2;
 }
 
 .content {
