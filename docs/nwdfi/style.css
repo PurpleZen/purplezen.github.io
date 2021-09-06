@@ -1,5 +1,5 @@
 body {
-  background-color: #fcfcfc;
+  background-color: #283747;
   font-family: 'Besley', serif;
   margin: 0;
 }
@@ -9,7 +9,8 @@ img {
 }
 
 img.image {
-  border-radius: 100px
+  border-radius: 1000px;
+  width: auto;
 }
 
 span {
@@ -21,39 +22,67 @@ div.banner {
   position: sticky;
   top: 0;
   width: 100%;
-}
+} 
 
 .header {
   background-color: #b7eaff;
-  display: grid;
+  display: flex;
   border-radius: 20px;
   margin-top: 20px;
+  margin-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
-  justify-content: center;
-  box-shadow: 0 0 10px 10px #E2E2E2;
+  box-shadow: 0 0 20px 10px #17202a;
+  font-size: 50px;
+  justify-content: space-evenly;
+  animation: fadeInAnimation ease 1.2s;
+  animation-delay: .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
 }
 
 .title {
+  background: linear-gradient(to right, #fff435, #fcec73, #9869ac);
   background-color: #fcec73;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 55px;
+  padding-right: 55px;
   color: #3d3b3c;
   border-radius: 80px;
-  margin-top: -75px;
-  margin-left: -35px;
-  margin-right: -35px;
-  box-shadow: 0 5px 5px -2.5px #E2E2E2;
+  margin-top: -95px;
+  margin-left: -55px;
+  margin-right: -55px;
+  box-shadow: 0 10px 10px -5px #E2E2E2;
+  text-align: center;
 }
 
 .content {
   color: #3d3b3c;
-  padding: 35px;
+  padding: 55px;
   background-color: #f3f3f1;
   border-radius: 20px;
   margin-top: 20px;
+  margin-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
   font-size: x-large;
-  box-shadow: 0 0 10px 10px #E2E2E2;
+  box-shadow: 0 0 20px 10px #17202a;
+  animation: fadeInAnimation ease 1.2s;
+  animation-delay: .7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+.link {
+  color: #9869ac;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
