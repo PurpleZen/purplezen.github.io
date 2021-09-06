@@ -6,6 +6,9 @@ body {
 
 img {
   width: 100%;
+}
+
+img.image {
   border-radius: 20px
 }
 
