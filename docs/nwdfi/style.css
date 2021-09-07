@@ -2,6 +2,10 @@ body {
   background-color: #283747;
   font-family: 'Besley', serif;
   margin: 0;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+  animation-delay: 0.5s;
 }
 
 img {
@@ -74,26 +78,11 @@ div.banner {
   font-weight: bold;
 }
 
-div.overlay {
-  width: 100%;
-  height: 1000px;
-  position: fixed;
-  background-color: #283747;
-  top: 0;
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 0.5s;
-
-}
-
 @keyframes fadeInAnimation {
   0% {
-    opacity: 1;
-    height: 100%;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
-    height: 0%;
+    opacity: 1;
   }
 }
