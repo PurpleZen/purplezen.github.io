@@ -2,7 +2,7 @@
 <html>
   <head>
   
-    <title>Non-Binaries Who Don't Fit In</title>
+    <title>NWDFI | Studio Website</title>
     <link rel="icon" href="../resources/favi.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
   </head>
+    
   <body>
 
     <div class="banner">
@@ -26,28 +27,27 @@
     </div>
 
     <div class="content">
-      <div id="welcome" class="title"><h2>Welcome!</h2></div>
+      <div id="welcome" class="title"><h2>Welcome!</h2><button onclick="copyWelcome()">Copy ↵</button></div>
       <span>Hello! Welcome to the Non-Binaries Who Don't Fit In website!</span>
       <span>This site is used as sort of an extended desciption of the <a href="https://scratch.mit.edu/studios/30255516/" class="link" target="_blank">Scratch Studio</a>.</span>
     </div>
           
     <div class="content">
-      <div id="about" class="title"><h2>About</h2></div>
+      <div id="about" class="title"><h2>About</h2><button onclick="copyAbout()">Copy ↵</button></div>
       <span>Maybe you feel different than the rest, you feel like you are weird. Perhaps you feel insecure, or alone. However it may be, this studio is dedicated to non-binary people who feel like they don't fit in.</span>
       <span>This studio is a open and welcoming place where you can open up and talk about your feelings, or anything you are going through.</span>
       <span>It's okay to feel like you don't fit in, many of us feel that way sometimes, but no matter what, we're all here for you! ♥</span>
     </div>
       
     <div class="content">
-      <div id="joining" class="title"><h2>Joining</h2></div>
+      <div id="joining" class="title"><h2>Joining</h2><button onclick="copyJoining()">Copy ↵</button></div>
       <span>Everyone is welcome to be active here, and everyone is welcome to curate!</span>
-      <span>Even if you are not non-binary, as long as you support non-binary people, you are always welcome to hang around and chat, as well as join!</span>
-      <span>⸻</span>
+      <span>Even if you are not non-binary, as long as you support non-binary people, you are always welcome to hang around and chat, as well as join!</span><br>
       <span>To curate, just ask over in the <a href="https://scratch.mit.edu/studios/30255516/comments/" class="link" target="_blank">comments</a>, and if we see you being kind and active around the studio, we may promote you! :)</span>
     </div>
       
     <div class="content">
-      <div id="guidelines" class="title"><h2>Guidelines</h2></div>
+      <div id="guidelines" class="title"><h2>Guidelines</h2><button onclick="copyGuidelines()">Copy ↵</button></div>
       <span>When active in this studio, we kindly ask that you follow these guidelines:</span>
         <li>Treat everyone respectfully and with kindness.</li>
         <li>Keep arguements and debates out of the studio.</li>
@@ -57,11 +57,66 @@
     </div>
       
     <div class="content">
-      <div id="credits" class="title"><h2>Credits!</h2></div>
+      <div id="managers" class="title"><h2>Managers</h2><button onclick="copyManagers()">Copy ↵</button></div>
+      <span>Bios</span>
+    </div>
+      
+    <div class="content">
+      <div id="friends" class="title"><h2>Friends</h2><button onclick="copyFriends()">Copy ↵</button></div>
+      <span>A</span>
+      <span>This site is used as sort of an extended desciption of the <a href="https://scratch.mit.edu/studios/30255516/" class="link" target="_blank">Scratch Studio</a>.</span>
+    </div>
+      
+    <div class="content">
+      <div id="credits" class="title"><h2>Credits</h2><button onclick="copyCredits()">Copy ↵</button></div>
       <span>Thanks to <a href="https://scratch.mit.edu/users/purple_cat_girl_" class="link" target="_blank">@purple_cat_girl_</a> for creating the thumbnail!</span>
       <span>Thanks to <a href="https://scratch.mit.edu/users/Panda_Bear_2009" class="link" target="_blank">@Panda_Bear_2009</a> for the original idea of this studio!</span>
       <span>Thanks to the <a href="https://scratch.mit.edu/studios/6446649/" class="link" target="_blank">Girls Who Don't Fit ln</a> studio for the inspiration of this studio!</span>
     </div>
       
+    <div class="content">
+      <div id="get-help" class="title"><h2>Get Help</h2><button onclick="copyHelp()">Copy ↵</button></div>
+      <span>If you ever have any suicidal thoughts, or find yourself doing self-harmful actvities, please get real-world help, such as by:</span>
+        <li>Talking to a parent/guardian</li>
+        <li>Talking to a teacher or school counselor</li>
+        <li>Talking to any trusted adult</li><br>
+      <span>If you are unable to talk to an adult, please contact a hotline, such as the ones below:</span>
+        <li><a href="https://www.thetrevorproject.org/" class="link" target="_blank">The Trevor Project</a></li>
+    </div>
+      
   </body>
 </html>
+
+<script>
+function copyWelcome() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#weclome");
+   }
+    
+function copyAbout() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#about");
+   }
+    
+function copyJoining() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#joining");
+   }
+    
+function copyGuidelines() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#guidelines");
+   }
+    
+function copyManagers() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#managers");
+   }
+    
+function copyFriends() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#friends");
+   }
+    
+function copyCredits() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#credits");
+   }
+    
+function copyHelp() {
+  navigator.clipboard.writeText("https://legomaniac04.github.io/docs/nwdfi/#get-help");
+   }
+</script>

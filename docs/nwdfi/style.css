@@ -1,24 +1,38 @@
 body {
-  background-color: #283747;
+  background-color: #fcfcfc;
   font-family: 'Besley', serif;
   margin: 0;
-  animation: fadeInAnimation ease 1s;
+  animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
 }
 
 img {
   width: 100%;
+  height: 60px;
 }
 
 img.image {
-  border-radius: 1000px;
-  width: auto;
+  border-radius: inherit;
+  width: 400px;
+  height: 256px;
+  align-self: center;
 }
 
 span {
   display: block;
+}
+
+button {
+  float: right;
+  color: #fff;
+  margin-right: -30px;
+  margin-top: -71px;
+  background: linear-gradient(to bottom right, yellow, lightgreen, #4fc3f7);
+  border: none;
+  cursor: pointer;
+  border-radius: 10pc;
 }
 
 li {
@@ -33,21 +47,20 @@ div.banner {
 } 
 
 .header {
-  background-color: #b7eaff;
+  background: linear-gradient(to top left, lightcoral, #ffb74d, yellow, lightgreen, #4fc3f7, #ba68c8);
   display: flex;
   border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
-  box-shadow: 0 0 20px 10px #17202a;
+  box-shadow: 0 0 20px 10px #f1f1f1;
   font-size: 50px;
   justify-content: space-evenly;
 }
 
 .title {
   background: linear-gradient(to right, #fff435, #fcec73, #9869ac);
-  background-color: #fcec73;
   padding-left: 55px;
   padding-right: 55px;
   color: #3d3b3c;
@@ -59,17 +72,21 @@ div.banner {
   text-align: center;
 }
 
+.title:target {
+  text-decoration: underline dotted;
+}
+
 .content {
   color: #3d3b3c;
   padding: 55px;
-  background-color: #f3f3f1;
+  background-color: #fff;
   border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
   font-size: x-large;
-  box-shadow: 0 0 20px 10px #17202a;
+  box-shadow: 0 0 20px 10px #f1f1f1;
 }
 
 .link {
