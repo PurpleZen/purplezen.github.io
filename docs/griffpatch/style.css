@@ -1,3 +1,27 @@
+body {
+  justify-content: center;
+  display: grid;
+}
+
 .yt {
-  opacity: 0%;
+  opacity: 50%;
+  justify-content: center;
+  margin-top: 300px;
+  margin-bottom: -5px;
+
+}
+
+.button {
+  background-color: purple;
+  border-radius: 10px;
+  margin-top: -55px;
+  width: 115px;
+  text-align: center;
+  padding: 18px;
+}
+
+iframe {
+  border-radius: 10px;
+  width: 150px;
+  height: 54px;
 }
