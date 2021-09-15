@@ -1,6 +1,6 @@
 html {
   background: linear-gradient(to bottom right, yellow, lightgreen, #4fc3f7);
-  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 body {
