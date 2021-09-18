@@ -96,7 +96,7 @@ div.banner {
   font-weight: bold;
 }
 
-.title:hover .button {
+.title:hover ~ .button {
   opacity: 1;
 }
 
