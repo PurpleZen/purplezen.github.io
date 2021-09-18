@@ -95,7 +95,7 @@ div.banner {
   font-weight: bold;
 }
 
-.title:hover + .button {
+.title:hover .button {
   animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
