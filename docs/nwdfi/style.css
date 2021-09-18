@@ -33,6 +33,7 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 10pc;
+  opacity: 0;
 }
 
 li {
@@ -96,9 +97,7 @@ div.banner {
 }
 
 .title:hover + .button {
-  animation: fadeInAnimation ease 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  opacity: 1;
 }
 
 @keyframes fadeInAnimation {
