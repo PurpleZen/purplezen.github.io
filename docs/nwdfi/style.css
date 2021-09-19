@@ -29,11 +29,7 @@ button {
   color: #fff;
   margin-right: -30px;
   margin-top: -65px;
-  border: none;
-  align-content: center;
-  justify-content: center;
   cursor: pointer;
-  border-radius: 10pc;
   opacity: 0;
   transition: opacity 0.5s;
 }
