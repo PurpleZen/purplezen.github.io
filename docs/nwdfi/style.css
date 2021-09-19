@@ -28,9 +28,11 @@ button {
   float: right;
   color: #fff;
   margin-right: -30px;
-  margin-top: -60px;
-  background: linear-gradient(to bottom right, yellow, lightgreen, #4fc3f7);
+  margin-top: -65px;
+  background: linear-gradient(to bottom right, yellow, #4fc3f7);
   border: none;
+  align-content: center;
+  justify-content: center;
   cursor: pointer;
   border-radius: 10pc;
   opacity: 0;
