@@ -29,6 +29,7 @@ button {
   color: #fff;
   margin-right: -30px;
   margin-top: -65px;
+  padding: 10px;
   background: linear-gradient(to bottom right, yellow, #4fc3f7);
   border: none;
   align-content: center;
