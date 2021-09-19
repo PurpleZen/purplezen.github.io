@@ -28,7 +28,7 @@ button {
   float: right;
   color: #fff;
   margin-right: -30px;
-  margin-top: -70px;
+  margin-top: -60px;
   background: linear-gradient(to bottom right, yellow, lightgreen, #4fc3f7);
   border: none;
   cursor: pointer;
@@ -71,7 +71,7 @@ div.banner {
   margin-left: -55px;
   margin-right: -55px;
   box-shadow: 0 10px 10px -5px #E2E2E2;
-  text-align: center;
+  text-align: center; display
 }
 
 .title:target {
