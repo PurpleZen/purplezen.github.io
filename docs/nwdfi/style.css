@@ -67,12 +67,11 @@ div.banner {
 }
 
 .title {
-  background: linear-gradient(to right, #fff435, #fcec73, #9869ac);
+  background-color: #fff435;
   padding-left: 55px;
   padding-right: 55px;
   color: #3d3b3c;
-  border-radius: 80px;
-  margin-top: -95px;
+  border-radius: 20px;
   margin-left: -55px;
   margin-right: -55px;
   box-shadow: 0 10px 10px -5px #E2E2E2;
@@ -86,6 +85,7 @@ div.banner {
 .content {
   color: #3d3b3c;
   padding: 55px;
+  padding-top: 0;
   background-color: #fff;
   border-radius: 20px;
   margin-top: 20px;
