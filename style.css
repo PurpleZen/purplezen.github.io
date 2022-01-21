@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    font-family: monospace;
+    background-color: #FFE789;
+    height: 2000px;
+}
+
+a {
+    color: #3949AB;
+    text-decoration: none;
+    font-size: large;
+}
+
+  .entry {
+    height: 300px;
+    margin: 30px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0002;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+
+  .top-bar {
+    height: 50px;
+    background-color: #E5E4E2;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 5px #0002;
+    border-bottom: solid 1px #0003;
+  }
+
+.projects {
+    margin: 20px;
+    top: 350px;
+    position: absolute;
+}
