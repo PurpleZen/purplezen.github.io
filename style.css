@@ -1,36 +1,51 @@
 body, html {
-    margin: 0;
-    font-family: monospace;
-    background: linear-gradient(180deg, rgba(255,181,133,1) 0%, rgba(255,159,146,1) 100%);
-    height: 2000px;
+  margin: 0;
+  font-family: monospace;
+  background-color: #93C572;
 }
 
 a {
-    color: #3949AB;
-    text-decoration: none;
-    font-size: large;
+  color: #F4C430;
+  text-decoration: none;
 }
 
-  .entry {
-    height: 300px;
-    margin: 30px;
-    background-color: #fcfcfc;
-    border-radius: 10px;
-    box-shadow: 0 0 15px #0002;
-    overflow: scroll;
-    scrollbar-width: none;
-  }
+.entry {
+  display: grid;
+  height: 300px;
+  margin: 30px;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0002;
+  overflow: scroll;
+  scrollbar-width: none;
+}
 
-  .top-bar {
-    height: 50px;
-    background-color: #E5E4E2;
-    border-radius: 10px 10px 0 0;
-    box-shadow: 0 0 5px #0002;
-    border-bottom: solid 1px #0003;
-  }
+.entry-cont {
+  display: grid;
+  text-align: center;
+  align-self: baseline;
+  font-size: xx-large;
+
+}
+
+.top-bar {
+  height: 50px;
+  background-color: #fcfcfc;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 5px #0002;
+  align-content: center;
+  display: grid;
+  padding-left: 10px;
+}
 
 .projects {
-    margin: 20px;
-    top: 350px;
-    position: absolute;
+  margin: 20px;
+  top: 350px;
+  position: absolute;
 }
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+  
