@@ -1,7 +1,10 @@
 body, html {
   margin: 0;
   font-family: monospace;
-  background-color: #93C572;
+  background-image: url(./bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -13,7 +16,8 @@ a {
   display: grid;
   height: 300px;
   margin: 30px;
-  background-color: #fcfcfc;
+  background-color: #fcfcfc99;
+  backdrop-filter: blur(10px);
   border-radius: 10px;
   box-shadow: 0 0 15px #0002;
   overflow: scroll;
@@ -47,5 +51,12 @@ a {
 h3 {
   margin: 0;
   padding: 0;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+.entry {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
 }
   
