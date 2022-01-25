@@ -1,15 +1,27 @@
 body, html {
   margin: 0;
   font-family: monospace;
-  background-image: url(./bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #373a46;
 }
 
 a {
   color: #F4C430;
   text-decoration: none;
+}
+
+.bg {
+  background-image: url(./bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+
+.fade {
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, #373a46);
+  align-self: end;
 }
 
 .entry {
@@ -22,6 +34,9 @@ a {
   box-shadow: 0 0 15px #0002;
   overflow: scroll;
   scrollbar-width: none;
+  top: 0;
+  position: absolute;
+  width: calc(100vw - 60px);
 }
 
 .entry-cont {
@@ -51,12 +66,5 @@ a {
 h3 {
   margin: 0;
   padding: 0;
-}
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-.entry {
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
 }
   
