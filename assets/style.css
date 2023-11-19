@@ -1,0 +1,45 @@
+html {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: 'Manrope';
+  background-color: #58804a;
+  color: #e7e0d5;
+  justify-items: center;
+  align-items: center;
+}
+
+.hello h1 {
+  font-size: 200px;
+  margin: 0;
+}
+
+.links {
+  display: grid;
+}
+
+.links a {
+  width: fit-content;
+  color: #ff9a17;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.links a:hover {
+  color: #d97c00;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hello h1 {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hello h1 {
+    font-size: 40px;
+  }
+}
